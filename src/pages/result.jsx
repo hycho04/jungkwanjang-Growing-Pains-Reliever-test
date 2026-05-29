@@ -174,7 +174,7 @@ function Result() {
         }
 
         .product-image {
-          margin-top: 30px;
+          margin-top: 10px;
           display: block;
           max-width: 260px;
           max-height: 230px;
@@ -182,7 +182,7 @@ function Result() {
         }
 
         .product-name {
-          margin: 20px 0 0;
+          margin: 10px 0 0;
           font-size: 18px;
           font-weight: 500;
           text-align: center;
