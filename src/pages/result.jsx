@@ -165,7 +165,7 @@ function Result() {
         }
 
         .type-description {
-          margin: 25px 0 0;
+          margin: 20px 0 0;
           font-size: 12px;
           font-weight: 300;
           line-height: 1.6;
@@ -174,7 +174,7 @@ function Result() {
         }
 
         .product-image {
-          margin-top: 45px;
+          margin-top: 30px;
           display: block;
           max-width: 260px;
           max-height: 230px;
@@ -182,7 +182,7 @@ function Result() {
         }
 
         .product-name {
-          margin: 30px 0 0;
+          margin: 20px 0 0;
           font-size: 18px;
           font-weight: 500;
           text-align: center;
