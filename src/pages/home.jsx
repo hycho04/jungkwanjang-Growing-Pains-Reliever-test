@@ -84,7 +84,7 @@ function Home() {
         }
 
         .main-image {
-          margin-top: 15px;
+          margin-top: 20px;
           display: block;
           object-fit: contain;
         }
@@ -92,7 +92,7 @@ function Home() {
         .home-footer {
           position: absolute;
           left: 0;
-          bottom: 35px;
+
           width: 100%;
           display: flex;
           flex-direction: column;
