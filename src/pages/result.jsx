@@ -125,6 +125,12 @@ function Result() {
       </footer>
 
       <style>{`
+        html,
+        body {
+          overflow: hidden;
+          height: 100%;
+          overscroll-behavior: none;
+        }
         .result-page {
           width: 100%;
           min-height: 100vh;

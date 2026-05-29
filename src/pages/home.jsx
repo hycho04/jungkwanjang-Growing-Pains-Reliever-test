@@ -37,6 +37,12 @@ function Home() {
       </footer>
 
       <style>{`
+        html,
+        body {
+          overflow: hidden;
+          height: 100%;
+          overscroll-behavior: none;
+        }
         * {
           box-sizing: border-box;
         }

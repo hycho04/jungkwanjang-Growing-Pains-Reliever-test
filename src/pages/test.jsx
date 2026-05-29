@@ -116,6 +116,12 @@ function Test() {
       </section>
 
       <style>{`
+        html,
+        body {
+          overflow: hidden;
+          height: 100%;
+          overscroll-behavior: none;
+        }
         .test-page {
           width: 100%;
           min-height: 100vh;
