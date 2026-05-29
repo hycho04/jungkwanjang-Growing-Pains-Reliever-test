@@ -110,8 +110,8 @@ function Home() {
           border-radius: 15px;
           background: linear-gradient(90deg, #834de2 0%, #cb3453 100%);
           color: white;
-          font-size: 20px;
-          font-weight: 500;
+          font-size: 18px;
+          font-weight: 400;
           cursor: pointer;
         }
 

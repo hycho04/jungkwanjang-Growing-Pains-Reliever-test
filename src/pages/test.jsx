@@ -42,7 +42,7 @@ function Test() {
 
     if (currentIndex === questions.length - 1) {
       const resultCode = nextAnswers.join("");
-      navigate("/result", { state: { resultCode } });
+      navigate(`/result?code=${resultCode}`);
       return;
     }
 
