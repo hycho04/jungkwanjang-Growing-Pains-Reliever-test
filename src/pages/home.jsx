@@ -1,19 +1,19 @@
 import { useNavigate } from "react-router-dom";
 
+import logoBrand from "../assets/정관장로고.png";
+import logoBig from "../assets/로고big.png";
+import imageBig from "../assets/imagebig.png";
+
 function Home() {
   const navigate = useNavigate();
 
   return (
     <div className="home-page">
       <main className="home-content">
-        <img
-          src="/src/assets/정관장로고.png"
-          alt="정관장 로고"
-          className="brand-logo"
-        />
+        <img src={logoBrand} alt="정관장 로고" className="brand-logo" />
 
         <img
-          src="/src/assets/로고big.png"
+          src={logoBig}
           alt="청춘통 해소제 테스트 로고"
           className="main-logo"
         />
@@ -23,11 +23,7 @@ function Home() {
           맞춤 해소법을 찾아보세요!
         </p>
 
-        <img
-          src="/src/assets/imagebig.png"
-          alt="청춘통 캐릭터"
-          className="main-image"
-        />
+        <img src={imageBig} alt="청춘통 캐릭터" className="main-image" />
       </main>
 
       <footer className="home-footer">
