@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import arrowImage from "../assets/arrow.png";
+import logoSmall from "../assets/로고small.png";
+import imageSmall from "../assets/imagesmall.png";
+
 function Test() {
   const navigate = useNavigate();
 
@@ -64,11 +68,11 @@ function Test() {
     <div className="test-page">
       <header className="test-header">
         <button className="back-button" onClick={handleBack}>
-          <img src="/src/assets/arrow.png" alt="뒤로가기" />
+          <img src={arrowImage} alt="뒤로가기" />
         </button>
 
         <img
-          src="/src/assets/로고small.png"
+          src={logoSmall}
           alt="청춘통 해소제 테스트"
           className="small-logo"
         />
@@ -96,11 +100,7 @@ function Test() {
           </h1>
         </div>
 
-        <img
-          src="/src/assets/imagesmall.png"
-          alt="질문 이미지"
-          className="question-image"
-        />
+        <img src={imageSmall} alt="질문 이미지" className="question-image" />
       </section>
 
       <section className="option-section">
