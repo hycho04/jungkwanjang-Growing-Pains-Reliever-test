@@ -116,20 +116,24 @@ function Test() {
       </section>
 
       <style>{`
-        html,
-        body {
-          overflow: hidden;
-          height: 100%;
-          overscroll-behavior: none;
-        }
-        .test-page {
-          width: 100%;
-          min-height: 100vh;
-          background-color: #0f0c1a;
-          color: #ffffff;
-          overflow: hidden;
-          position: relative;
-        }
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0c1a;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+.test-page {
+  width: 100%;
+  height: 100dvh;
+  background-color: #0f0c1a;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
 
         .test-header {
           margin-top: 20px;

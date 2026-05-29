@@ -125,15 +125,20 @@ function Result() {
       </footer>
 
       <style>{`
-        html,
-        body {
-          overflow: hidden;
-          height: 100%;
-          overscroll-behavior: none;
-        }
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0c1a;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
         .result-page {
           width: 100%;
-          min-height: 100vh;
+          height: 100vh;
           background-color: #0f0c1a;
           color: #ffffff;
           overflow: hidden;
@@ -207,6 +212,7 @@ function Result() {
           position: absolute;
           left: 0;
           margin-top : 50px;
+          bottom: 30px;
           width: 100%;
           display: flex;
           flex-direction: column;
