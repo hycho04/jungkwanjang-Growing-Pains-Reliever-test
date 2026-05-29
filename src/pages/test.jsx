@@ -238,7 +238,7 @@ function Test() {
         }
 
         .option-card {
-          width: 320px;
+          width: 350px;
           height: 70px;
           border: none;
           border-radius: 15px;

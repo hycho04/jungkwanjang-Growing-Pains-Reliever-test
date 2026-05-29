@@ -63,7 +63,7 @@ function Home() {
         }
 
         .brand-logo {
-          margin-top: 50px;
+          margin-top: 20px;
           display: block;
           object-fit: contain;
         }
@@ -87,12 +87,13 @@ function Home() {
           margin-top: 20px;
           display: block;
           object-fit: contain;
+          width: 300px;
         }
 
         .home-footer {
           position: absolute;
           left: 0;
-
+          margin-top: 20px;
           width: 100%;
           display: flex;
           flex-direction: column;
@@ -100,7 +101,7 @@ function Home() {
         }
 
         .start-button {
-          width: 320px;
+          width: 350px;
           height: 65px;
           border: none;
           border-radius: 15px;
@@ -109,12 +110,13 @@ function Home() {
           font-size: 18px;
           font-weight: 400;
           cursor: pointer;
+          margin-top :20px;
         }
 
         .footer-text {
           margin: 20px 0 0;
-          font-size: 13px;
-          font-weight: 400;
+          font-size: 12px;
+          font-weight: 300;
           color: #a3a3a3;
           text-align: center;
         }

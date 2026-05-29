@@ -25,7 +25,7 @@ function Result() {
       productName: "에브리타임 필름",
       productImage: filmImage,
       productColor: "#FFEFF1",
-      reason: "바쁜 하루 속에서도 가볍게 챙길 수 있는 데일리 필름 타입.",
+      reason: "바쁜 하루 속에서도 가볍게 챙길 수 있는 데일리 필름",
     },
     comfy: {
       typeName: "오늘은 쉬어도 되형",
@@ -33,31 +33,31 @@ function Result() {
       productName: "에브리타임 필름 컴피",
       productImage: comfyImage,
       productColor: "#FAEEFF",
-      reason: "자기 전 가볍게 챙기기 좋은 컴피 타입.",
+      reason: "자기 전 가볍게 챙기기 좋은 컴피 타입",
     },
     mango: {
       typeName: "활력 충전형",
-      description: "의욕이 떨어진 요즘, 상큼한 에너지가 필요한 타입.",
+      description: "의욕이 떨어진 요즘, 상큼한 에너지가 필요한 타입",
       productName: "에브리타임 플레이버 망고",
       productImage: mangoImage,
       productColor: "#FDF1D5",
-      reason: "밝고 달콤한 망고 맛으로 무기력한 순간을 환기.",
+      reason: "밝고 달콤한 망고 맛으로 무기력한 순간을 환기",
     },
     pear: {
       typeName: "밸런스 회복형",
-      description: "지치지도 들뜨지도 않게, 균형을 찾고 싶은 타입.",
+      description: "지치지도 들뜨지도 않게, 균형을 찾고 싶은 타입",
       productName: "에브리타임 플레이버 배",
       productImage: pearImage,
       productColor: "#F2FDD5",
-      reason: "부담 없이 즐기기 좋은 부드럽고 깔끔한 배 맛.",
+      reason: "부담 없이 즐기기 좋은 부드럽고 깔끔한 배 맛",
     },
     sevenberry: {
       typeName: "리프레시형",
-      description: "반복되는 일상 속 기분 전환이 필요한 타입.",
+      description: "반복되는 일상 속 기분 전환이 필요한 타입",
       productName: "에브리타임 플레이버 세븐베리",
       productImage: sevenberryImage,
       productColor: "#FDEFFF",
-      reason: "상큼한 베리 맛으로 기분을 가볍게 리프레시.",
+      reason: "상큼한 베리 맛으로 기분을 가볍게 리프레시",
     },
   };
 
@@ -159,7 +159,7 @@ function Result() {
         .type-name {
           margin: 0;
           font-size: 22px;
-          font-weight: 400;
+          font-weight: 600;
           color: #e1bbff;
           text-align: center;
         }
@@ -200,7 +200,7 @@ function Result() {
         .home-footer {
           position: absolute;
           left: 0;
-          bottom: 35px;
+          margin-top : 50px;
           width: 100%;
           display: flex;
           flex-direction: column;
@@ -208,7 +208,7 @@ function Result() {
         }
 
         .start-button {
-          width: 320px;
+          width: 350px;
           height: 65px;
           border: none;
           border-radius: 15px;
@@ -221,7 +221,7 @@ function Result() {
 
         .footer-text {
           margin: 20px 0 0;
-          font-size: 13px;
+          font-size: 12px;
           font-weight: 400;
           color: #a3a3a3;
           text-align: center;
