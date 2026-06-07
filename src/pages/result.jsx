@@ -1,11 +1,11 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
 import logoSmall from "../assets/로고small.png";
-import filmImage from "../assets/에브리타임필름컴피.png";
+import filmImage from "../assets/에브리타임필름.png";
 import comfyImage from "../assets/에브리타임필름컴피.png";
 import mangoImage from "../assets/에브리타임플레이버망고.png";
-import pearImage from "../assets/에브리타임플레이버망고.png";
-import sevenberryImage from "../assets/에브리타임플레이버망고.png";
+import pearImage from "../assets/에브리타임플레이버배.png";
+import sevenberryImage from "../assets/에브리타임플레이버세븐베리.png";
 
 function Result() {
   const location = useLocation();
